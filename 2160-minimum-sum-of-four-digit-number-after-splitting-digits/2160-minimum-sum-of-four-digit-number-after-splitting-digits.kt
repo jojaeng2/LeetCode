@@ -8,7 +8,8 @@ class Solution {
             else li2.add(res[i])
         }
         var answer = 0
-        answer += listSum(li1) + listSum(li2)
+        answer += listSum(li1)
+        answer += listSum(li2)
         return answer
     }
 
