@@ -33,9 +33,7 @@ class Solution {
         )
     }
     
-    fun getValue(node : TreeNode) : Int {
-        return node.`val`
-    }
+    fun getValue(node : TreeNode) : Int = node.`val`
     
     fun isEqual(a : Int, b : Int) : Boolean = (a == b)
 }
