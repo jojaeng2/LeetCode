@@ -49,7 +49,5 @@ class Solution {
         return list
     }
     
-    fun getValue(list : MutableList<Int?>, index : Int) : Int {
-        return list[index] ?: 0
-    }
+    fun getValue(list : MutableList<Int?>, index : Int) : Int = list[index] ?: 0
 }
